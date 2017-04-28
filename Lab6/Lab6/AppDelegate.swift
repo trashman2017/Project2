@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Lab6
-//
-//  Created by PETER NICOLAISEN on 28/04/2017.
-//  Copyright © 2017 PETER NICOLAISEN. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

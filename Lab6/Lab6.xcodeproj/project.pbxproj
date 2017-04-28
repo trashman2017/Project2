@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3952EB441EB316C30041B24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952EB431EB316C30041B24D /* AppDelegate.swift */; };
-		3952EB461EB316C30041B24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952EB451EB316C30041B24D /* ViewController.swift */; };
 		3952EB491EB316C30041B24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3952EB471EB316C30041B24D /* Main.storyboard */; };
 		3952EB4B1EB316C30041B24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3952EB4A1EB316C30041B24D /* Assets.xcassets */; };
 		3952EB4E1EB316C30041B24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3952EB4C1EB316C30041B24D /* LaunchScreen.storyboard */; };
+		39D6C4AA1EB31C0D00D99244 /* TblViewControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C4A91EB31C0D00D99244 /* TblViewControllerTrips.swift */; };
+		39D6C4AC1EB31C5A00D99244 /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C4AB1EB31C5A00D99244 /* TblViewControllerTripInfo.swift */; };
+		39D6C4AE1EB31D2D00D99244 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6C4AD1EB31D2D00D99244 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3952EB401EB316C30041B24D /* Lab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3952EB431EB316C30041B24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3952EB451EB316C30041B24D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3952EB481EB316C30041B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3952EB4A1EB316C30041B24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3952EB4D1EB316C30041B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3952EB4F1EB316C30041B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D6C4A91EB31C0D00D99244 /* TblViewControllerTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTrips.swift; sourceTree = "<group>"; };
+		39D6C4AB1EB31C5A00D99244 /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
+		39D6C4AD1EB31D2D00D99244 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		3952EB421EB316C30041B24D /* Lab6 */ = {
 			isa = PBXGroup;
 			children = (
+				39D6C4AB1EB31C5A00D99244 /* TblViewControllerTripInfo.swift */,
+				39D6C4A91EB31C0D00D99244 /* TblViewControllerTrips.swift */,
 				3952EB431EB316C30041B24D /* AppDelegate.swift */,
-				3952EB451EB316C30041B24D /* ViewController.swift */,
 				3952EB471EB316C30041B24D /* Main.storyboard */,
+				39D6C4AD1EB31D2D00D99244 /* Trip.swift */,
 				3952EB4A1EB316C30041B24D /* Assets.xcassets */,
 				3952EB4C1EB316C30041B24D /* LaunchScreen.storyboard */,
 				3952EB4F1EB316C30041B24D /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3952EB461EB316C30041B24D /* ViewController.swift in Sources */,
+				39D6C4AE1EB31D2D00D99244 /* Trip.swift in Sources */,
+				39D6C4AC1EB31C5A00D99244 /* TblViewControllerTripInfo.swift in Sources */,
+				39D6C4AA1EB31C0D00D99244 /* TblViewControllerTrips.swift in Sources */,
 				3952EB441EB316C30041B24D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				3952EB541EB316C30041B24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
